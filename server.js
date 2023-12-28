@@ -2,11 +2,28 @@
 const express = require("express");
 
 
+// setting port
+const PORT = process.env.PORT || 3000;
+
 // initializing express
 const app = express();
 
 // Middleware
 app.use((req,res,next) => {
-    res.send("Hello world");
+    console.log("Hello from Middleware");
     next();
+})
+
+
+// routes
+app.get('/', (req,res) => {
+    res.send("Welcome to the Student Data API");
+})
+
+
+
+
+// listening to the port
+app.listen(PORT, () => {
+    console.log(`Server is up and running on port ${PORT}`);
 })
