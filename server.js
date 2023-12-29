@@ -20,6 +20,10 @@ app.get('/', (req,res) => {
     res.send("Welcome to the Student Data API");
 })
 
+app.get('/all-students', (req,res) => {
+    res.send("Data of all the students will be displayed here");
+})
+
 
 
 
