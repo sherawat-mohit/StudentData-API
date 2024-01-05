@@ -1,6 +1,10 @@
 const studentModel = require("../models/student-model");
 
-module.exports.welcome = (req,res) =>{
-    res.send("Welcome to the Student Data API");
+module.exports.getAllStudents = async (req,res) =>{
+    res.status(200).json({msg : "All students are here"});
+}
+
+module.exports.getAllStudentsTesting = async (req,res) =>{
+    res.status(200).json({msg : "All students are in testing"});
 }
 

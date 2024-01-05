@@ -1,6 +1,7 @@
 // importing
 const express = require("express");
-const routes = require("./routes/routes")
+const routes = require("./routes/routes");
+const db = require("./config/mongoose")
 
 
 // setting port
@@ -21,5 +22,5 @@ app.use("/",routes);
 
 // listening to the port
 app.listen(PORT, () => {
-    console.log(`Server is up and running on port ${PORT}`);
-})
+console.log(`Server is up and running on port ${PORT}`);
+});
