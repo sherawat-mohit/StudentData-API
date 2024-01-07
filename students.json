@@ -1,0 +1,141 @@
+[
+    {
+        "name": "Mohit Kumar",
+        "age": 12,
+        "standard": 5,
+        "section": "A",
+        "father_name": "Jitender Singh"
+    },
+    {
+        "name": "Tanuj Kumar",
+        "age": 9,
+        "standard": 4,
+        "section": "B"
+    },
+    {
+        "name": "Riya Sharma",
+        "age": 11,
+        "standard": 6,
+        "section": "C",
+        "father_name": "Amit Sharma"
+    },
+    {
+        "name": "Aditya Verma",
+        "age": 13,
+        "standard": 7,
+        "section": "A",
+        "father_name": "Vikas Verma"
+    },
+    {
+        "name": "Aisha Patel",
+        "age": 10,
+        "standard": 5,
+        "section": "B",
+        "father_name": "Raj Patel"
+    },
+    {
+        "name": "Neha Singh",
+        "age": 14,
+        "standard": 8,
+        "section": "D",
+        "father_name": "Rahul Singh"
+    },
+    {
+        "name": "Siddharth Joshi",
+        "age": 12,
+        "standard": 5,
+        "section": "C",
+        "father_name": "Amit Joshi"
+    },
+    {
+        "name": "Ananya Gupta",
+        "age": 11,
+        "standard": 6,
+        "section": "B",
+        "father_name": "Rajesh Gupta"
+    },
+    {
+        "name": "Vikram Malhotra",
+        "age": 13,
+        "standard": 7,
+        "section": "A",
+        "father_name": "Rakesh Malhotra"
+    },
+    {
+        "name": "Kritika Kapoor",
+        "age": 10,
+        "standard": 5,
+        "section": "D",
+        "father_name": "Vivek Kapoor"
+    },
+    {
+        "name": "Rahul Sharma",
+        "age": 14,
+        "standard": 8,
+        "section": "C",
+        "father_name": "Amit Sharma"
+    },
+    {
+        "name": "Pooja Verma",
+        "age": 9,
+        "standard": 4,
+        "section": "B",
+        "father_name": "Vikas Verma"
+    },
+    {
+        "name": "Ankur Patel",
+        "age": 12,
+        "standard": 5,
+        "section": "A",
+        "father_name": "Raj Patel"
+    },
+    {
+        "name": "Nisha Singh",
+        "age": 11,
+        "standard": 6,
+        "section": "C",
+        "father_name": "Rahul Singh"
+    },
+    {
+        "name": "Deepak Joshi",
+        "age": 13,
+        "standard": 7,
+        "section": "A",
+        "father_name": "Amit Joshi"
+    },
+    {
+        "name": "Sara Gupta",
+        "age": 10,
+        "standard": 5,
+        "section": "B",
+        "father_name": "Rajesh Gupta"
+    },
+    {
+        "name": "Amit Malhotra",
+        "age": 14,
+        "standard": 8,
+        "section": "D",
+        "father_name": "Rakesh Malhotra"
+    },
+    {
+        "name": "Kavita Kapoor",
+        "age": 9,
+        "standard": 4,
+        "section": "C",
+        "father_name": "Vivek Kapoor"
+    },
+    {
+        "name": "Manoj Sharma",
+        "age": 12,
+        "standard": 5,
+        "section": "B",
+        "father_name": "Amit Sharma"
+    },
+    {
+        "name": "Anjali Verma",
+        "age": 11,
+        "standard": 6,
+        "section": "A",
+        "father_name": "Vikas Verma"
+    }
+]

@@ -1,7 +1,8 @@
 // importing
+require("dotenv").config();
 const express = require("express");
 const routes = require("./routes/routes");
-const db = require("./config/mongoose")
+const connectDB = require("./config/mongoose")
 
 
 // setting port
@@ -20,7 +21,17 @@ app.use((req, res, next) => {
 app.use("/",routes);
 
 
-// listening to the port
-app.listen(PORT, () => {
-console.log(`Server is up and running on port ${PORT}`);
-});
+// starting the api
+const start = async () =>{
+    try {
+        await connectDB(process.env.MONGODB_URL);
+        console.log("Connected to the database");
+        app.listen(PORT, () => {
+            console.log(`Server is up and running on port ${PORT}`);
+        });
+    }catch(err){
+        console.log(err);
+    }
+}
+
+start();
